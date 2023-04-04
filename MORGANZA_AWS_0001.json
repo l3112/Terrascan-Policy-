@@ -1,0 +1,15 @@
+{
+	"name": "policyName",
+	"file": "MORGANZA_AWS_0001.rego",
+	"policy_type": "AWS",
+	"resource_type": "aws_s3_bucket",
+	"template_args": {
+		"name": "policyName",
+		"prefix": "cloudavail_"
+	},
+	"severity": "HIGH",
+	"description": "Makes sure all bucket names start with cloudavail_",
+	"category": "",
+	"version": 1,
+	"id": "MORGANZA_AWS_0001"
+}
