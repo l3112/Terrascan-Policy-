@@ -1,6 +1,8 @@
 # Terrascan-Policy-
 Wanting feedback on how this is supposed to be formatted. The code it's referring to is not uploaded, but can be sent privately.
 
+GOAL: Make a policy so that AWS S3 buckets have to start with a specific set of words to not be flagged as error.
+
 I am asking important questions, such as
 - Are both of them the policies, but with different languages?
 - How can I get my Terrascan to acknowledge it?
