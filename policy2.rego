@@ -13,3 +13,9 @@ allow  { #do I need input.aws_s3_bucket outside the brackets?
 	array.config.bucket == "Cloudavail*"
  
   }
+  
+allow  if {
+  
+  	regex.match("Cloudavail.*", bucket_name)
+	
+}
