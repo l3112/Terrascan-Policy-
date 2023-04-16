@@ -1,5 +1,7 @@
 package accurics
+import future.keywords.if
 
+# thank you to Anders Eknert!
 # Use this one in that open Rego policy checker.
 
 # This is an example for a Rego rule. The value inside the brackets [array.id] is returned if the rule evaluates to be true.
